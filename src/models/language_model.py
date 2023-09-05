@@ -3,9 +3,11 @@ from database.db import db
 
 
 # Req. 1
-class LanguageModel:
-    def __init__(self):
-        raise NotImplementedError
+class LanguageModel(AbstractModel):
+    _collection = db["languages"]
+
+    def __init__(self, json_data):
+        super().__init__(json_data)
 
     # Req. 2
     def to_dict(self):
