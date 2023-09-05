@@ -1,5 +1,5 @@
-# from .abstract_model import AbstractModel
-# from database.db import db
+from .abstract_model import AbstractModel
+from database.db import db
 
 
 # Req. 1
