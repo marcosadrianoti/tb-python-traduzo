@@ -8,6 +8,7 @@ class LanguageModel(AbstractModel):
 
     def __init__(self, json_data):
         super().__init__(json_data)
+        self.data = json_data
 
     # Req. 2
     def to_dict(self):
@@ -19,4 +20,5 @@ class LanguageModel(AbstractModel):
     # Req. 3
     @classmethod
     def list_dicts(cls):
-        raise NotImplementedError
+        languages = cls._collection.find()
+        return [language for language in languages]
