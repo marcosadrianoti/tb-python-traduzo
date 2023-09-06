@@ -9,12 +9,14 @@ class LanguageModel(AbstractModel):
     def __init__(self, json_data):
         super().__init__(json_data)
         self.data = json_data
+        self.name = self.data["name"]
+        self.acronym = self.data["acronym"]
 
     # Req. 2
     def to_dict(self):
         return {
-            'name': self.data['name'],
-            'acronym': self.data['acronym']
+            'name': self.name,
+            'acronym': self.acronym
         }
 
     # Req. 3
