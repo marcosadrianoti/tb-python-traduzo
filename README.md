@@ -16,15 +16,14 @@ Projeto desenvolvido por mim durante o curso de Desenvolvimento Web na Trybe. Di
 <details>
 <summary><strong> Requisitos do projeto:</strong></summary>
 
-  *  Criar a função `fetch`.
-  *  Criar a função `scrape_updates`.
-  *  Criar a função `scrape_next_page_link`.
-  *  Criar a função `scrape_news`.
-  *  Criar a função `get_tech_news` para obter as notícias.
-  *  Testar a classe `ReadingPlanService`.
-  *  Criar a função `search_by_title`.
-  *  Criar a função `search_by_date`.
-  *  Criar a função `search_by_category`.
+  * MODEL - Instanciando idiomas
+  * MODEL - Conversão atributo self.data para Dicionário
+  * MODEL - Listagem de Idiomas como Dicionários
+  * CONTROLLER & VIEW - Endpoint Tradutor, renderizando variáveis do Backend
+  * CONTROLLER - Tradução de Texto - Post
+  * CONTROLLER - Tradução Reversa
+  * TESTS - Histórico de Traduções
+  * API GET - Endpoint de Listagem de Histórico de Traduções.
 </details>
   
 ## Rodando o projeto localmente
