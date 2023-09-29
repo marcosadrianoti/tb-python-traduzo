@@ -4,13 +4,14 @@ Projeto desenvolvido por mim durante o curso de Desenvolvimento Web na Trybe. Di
 <details>
 <summary><strong>Objetivos do projeto:</strong></summary>
  
-  * Desenvolver uma aplicação que faz consultas em notícias sobre tecnologia utilizando a raspagem de dados no [blog da trybe](https://blog.betrybe.com).
+  * Desenvolver uma aplicação de tradução de textos entre vários idiomas, utilizando Python com o Framework Flask, para criar uma aplicação Server Side.
   * Verificar se sou capaz de:
-    * Utilizar o terminal interativo do Python
-    * Escrever seus próprios módulos e importá-los em outros códigos
-    * Aplicar técnicas de raspagem de dados
-    * Extrair dados de conteúdo HTML
-    * Armazenar os dados obtidos em um banco de dados.
+    * Implementar uma API utilizando arquitetura em camadas MVC.
+    * Utilizar o Docker para projetos Python.
+    * Aplicar conhecimentos de Orientação a Objetos no desenvolvimento WEB.
+    * Escrever testes para APIs para garantir a implementação dos endpoints.
+    * Interagir com um banco de dados não relacional MongoDB.
+    * Desenvolver páginas web Server Side.
 </details>
 <details>
 <summary><strong> Requisitos do projeto:</strong></summary>
